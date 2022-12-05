@@ -1,96 +1,193 @@
-# Interview-document<br />
-Here is all the document related to the Interview<br />
-00:00 Introduction<br />
-01:09 Syllabus
-11:12 History of JavaScript
-21:34 Download and Install vscode
-23:34 How to execute javascript code
-29:34 Hello World program
-33:29 Intro to variables
-42:05 Rules for naming variables
-49:20 Let keyword
-54:02 Const keyword 
-56:41 String Indexing
-01:00:40 Useful string methods
-01:09:11 typeof , string to number, number to string conversion
-01:16:06 String Concatenation
-01:19:01 Template Strings
-01:22:34 undefined null bigint
-01:31:00 Booleans and comparison Operators
-01:37:01 if else , truthy and falsy values
-01:46:36 Ternary operator
-01:50:12 And Or Operator
-01:55:51 Nested If else
-02:02:39 if elseif 
-02:08:59 Switch statement
-02:14:44 While loop
-02:21:36 While loop example
-02:28:46 Intro to for loop
-02:32:27 for loop examples
-02:34:29 Break and Continue Keyword
-02:38:17 Do while loop
-02:41:56 Intro to arrays
-02:52:05 push pop shift unshift
-03:00:03 Primitive vs reference data types
-03:16:29 Clone array, concat, spread operator
-03:26:12 For loop in array
-03:32:47 Use const for creating arrays
-03:37:46 While loop in array
-03:39:32 For of loop
-03:43:25 For in loop
-03:46:46 Array destructuring
-03:56:46 Intro to objects
-04:06:00 Dot vs bracket notation
-04:11:09 How to iterate objects
-04:18:21 Computed Properties
-04:23:14 Spread operator in array and objects
-04:33:59 Object destructuring
-04:42:13 Object inside array
-04:46:03 Nested destructuring
-04:51:08 Function declaration
-05:11:43 Function Expression
-05:16:22 Arrow Functions
-05:24:46 Hoisting intro ( later covered in detail) 
-05:29:22 Functions inside functions
-05:33:21 Lexical Scope
-05:43:15 Block scope vs function scope
-05:53:41 Default parameters
-05:56:19 Rest parameters
-06:02:35 Param destructuring
-06:05:54 callback functions
-06:13:09 Function returning function
-06:18:48 forEach method
-06:35:48 map method
-06:43:57 filter method
-06:47:55 reduce method
-07:04:34 sort method
-07:26:31 find method
-07:33:12 every method
-07:39:25 some method
-07:43:18 fill method
-07:46:08 splice method
-07:52:20 Iterables, array like objects
-07:57:15 sets 
-08:11:13 map data structure
-08:29:10 clone using Object.assign
-08:32:02 optional chaining
-08:38:42 Create your own methods
-08:52:00 This keyword
-08:55:44 call, apply, bind methods
-09:05:49 small warning
-09:08:55 arrow functions and this
-09:12:36 short syntax
-09:13:24 create functions to create multiple objects
-09:23:03 store methods in different object
-09:28:37 solution using object.create
-09:45:55 What is prototype
-09:56:21 Use prototype
-10:04:18 New keyword
-10:17:17 hasOwnProperty
-10:19:35 more about prototype
-10:26:43 class keyword
-10:35:12 class practice and extends keyword
-10:42:48 super keyword
-10:47:18 same method in base class
-10:49:35 getters and setters
-11:02:47 static methods and properties
+<h2>JavaScript Beginning to Mastery Syllabus</h2>
+<ul>
+<li>JavaScript vs EcmaScript </li>
+<li>Install vscode and run first program</li>
+
+<h2>Basics of Programming in JavaScript</h2>
+<ul>
+<li>Hello world program</li>
+<li>Declare variable using var</li>
+<li>More about variable</li>
+<li>Let</li>
+<li>Const</li>
+<li>String Indexing</li>
+<li>Useful string methods</li>
+<li>Template Strings</li>
+<li>Null, undefined, BigInt, typeof</li>
+<li>Booleans and Comparison Operator</li>
+<li>Truthy and Falsy Values</li>
+<li>If else statement</li>
+<li>Ternary Operator</li>
+<li>&& || operator</li>
+<li>Nested if else</li>
+<li>If elseif else</li>
+<li>Switch statement</li>
+<li>While loop </li>
+<li>While loop examples</li>
+<li>For loop</li>
+<li>For loop examples</li>
+<li>Break and continue keyword</li>
+<li>Do while loop</li>
+
+<h2>Arrays in JavaScript</h2>
+<ul>
+<li>Intro to arrays</li>
+<li>Push pop shift unshift</li>
+<li>Primitive vs reference data types</li>
+<li>Clone array & spread operator</li>
+<li>For loop</li>
+<li>use const for creating arrays</li>
+<li>While loop in array</li>
+<li>For of loop</li>
+<li>For in loop</li>
+<li>Array destructuring</li>
+
+<h2>Objects in JavaScript</h2>
+<ul>
+<li>Intro to objects</li>
+<li>Dot vs Bracket Notation</li>
+<li>Iterate objects</li>
+<li>Computed properties</li>
+<li>Spread operator in objects</li>
+<li>Object Destructuring</li>
+<li>Objects inside Array</li>
+<li>Nested Destructuring</li>
+
+<h2>Functions in JavaScript</h2>
+<ul>
+<li>Function declaration</li>
+<li>Function Expression</li>
+<li>Arrow Functions</li>
+<li>Function declarations are hoisted  (covered in great detail , later in this course)</li>
+<li>Function inside function</li>
+<li>Lexical Scope</li>
+<li>Block Scope Vs Function Scope</li>
+<li>Default Parameters</li>
+<li>Rest Parameters</li>
+<li>Parameter Destructuring</li>
+<li>Very brief intro to callback functions(covered in great detail , later in the course)</li>
+<li>Functions returning Functions </li>
+
+<h2>Very Important Array Methods</h2>
+<ul>
+<li>Foreach method</li>
+<li>Map method</li>
+<li>Filter</li>
+<li>Reduce</li>
+<li>Sort</li>
+<li>Find</li>
+<li>Every</li>
+<li>Some</li>
+<li>Fill method</li>
+<li>Splice method</li>
+
+
+<h2>More useful things </h2>
+<ul>
+<li>Iterables</li>
+<li>Sets</li>
+<li>Maps</li>
+<li>Object.assign</li>
+<li>Optional chaining</li>
+
+
+<h2>Object Oriented JavaScript / Prototypal Inheritance</h2>
+<ul>
+<li>Methods</li>
+<li>This keyword, Window object</li>
+<li>Call , apply and bind method</li>
+<li>Some warnings</li>
+<li>This inside arrow functions</li>
+<li>Short syntax for methods</li>
+<li>Factory functions & discuss some memory related problems</li>
+<li>First solution to that problem</li>
+<li>Why that solution isn’t that great</li>
+<li>What is __proto__ , [[prototype]]</li>
+<li>What is prototype</li>
+<li>Use prototype</li>
+<li>New keyword</li>
+<li>Constructor function with new keyword</li>
+<li>More discussion about proto and prototype</li>
+<li>Class keyword</li>
+<li>Example using class keyword</li>
+<li>Super keyword</li>
+<li>Method overriding</li>
+<li>Getters and setters</li>
+<li>Static methods and properties</li>
+
+<h2>How JavaScript Works</h2>
+<ul>
+<li>Global Execution context</li>
+<li>This and window in global execution context</li>
+<li>Hoisting</li>
+<li>Are let and const are hoisted ? What is a reference Error ? </li>
+<li>Function execution context</li>
+<li>Scope chain and lexical environment</li>
+<li>Intro to closures</li>
+<li>Closure example 1</li>
+<li>Closure Example 2</li>
+<li>Closure Example 3</li>
+
+<h2>DOM Tutorial</h2>
+<ul>
+<li>HTML and CSS Crash course ( Around 30-40 minutes)
+<li>Async vs defer</li>
+<li>Select elements using id</li>
+<li>querySelector</li>
+<li>textContent</li> & innerText
+<li>Change the styles of elements using js</li>
+<li>Get and set attributes</li>
+<li>Select multiple elements and loop through them</li>
+<li>innerHTML</li>
+<li>Deeply understand dom tree, root node , element nodes, text nodes</li>
+<li>classList</li>
+<li>Add new elements to page</li>
+<li>Create elements</li>
+<li>Insert adjacent elements</li>
+<li>Clone nodes</li>
+<li>More methods to add elements on page</li>
+<li>How to get the dimensions of the element</li>
+<li>Intro to events</li>
+<li>This keyword inside eventListener callback</li>
+<li>Add events on multiple elements</li>
+<li>Event object</li>
+<li>How event listener works</li>
+<li>Practice with events</li>
+<li>Create demo project</li>
+<li>More events</li>
+<li>Event bubbling</li>
+<li>Event Capturing</li>
+<li>Event delegation</li> 
+<li>Create Project using event delegation</li>
+
+<h2>Asynchronous JavaScript</h2>
+<ul>
+<li>Is Javascript a synchronous or asynchronous programming language ? </li>
+<li>SetTimeout()</li>
+<li>SetTimeout() with 0 millisecond</li>
+<li>Callback Queue</li>
+<li>SetInterval and create little project with setInterval</li>
+<li>Understand callbacks in general</li>
+<li>Callbacks in asynchronous programming </li>
+<li>Callback Hell and Pyramid of doom</li>
+<li>Intro to promises</li>
+<li>Microtask Queue</li>
+<li>Function that returns promise</li>
+<li>Promise and settimeout</li>
+<li>Promise.resolve and more about then method</li>
+<li>Convert nested Callbacks to flat code using promises</li>
+<li>Intro to Ajax, HTTP Request</li>
+<li>XHR requests</li>
+<li>Error handling in XHR requests</li>
+<li>XHR request Chaining </li>
+<li>Promisifying XHR requests and chaining using then method</li>
+<li>Fetch API</li>
+<li>Error Handling in Fetch API</li>
+<li>Consume Promises with async and Await</li>
+<li>Split code into multiple files using ES6 modules.</li>
+<li>Congratulations </li>
+<li>Now you know javascript in Great Details</li>
+<li>What next ? </li>
+</ul>
+
+

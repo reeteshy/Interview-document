@@ -2,7 +2,7 @@
 <ul>
 <li>JavaScript vs EcmaScript </li>
 <li>Install vscode and run first program</li>
-
+</ul>
 <h2>Basics of Programming in JavaScript</h2>
 <ul>
 <li>Hello world program</li>
@@ -29,6 +29,7 @@
 <li>Break and continue keyword</li>
 <li>Do while loop</li>
 
+</ul>
 <h2>Arrays in JavaScript</h2>
 <ul>
 <li>Intro to arrays</li>
@@ -42,6 +43,7 @@
 <li>For in loop</li>
 <li>Array destructuring</li>
 
+</ul>
 <h2>Objects in JavaScript</h2>
 <ul>
 <li>Intro to objects</li>
@@ -53,6 +55,7 @@
 <li>Objects inside Array</li>
 <li>Nested Destructuring</li>
 
+</ul>
 <h2>Functions in JavaScript</h2>
 <ul>
 <li>Function declaration</li>
@@ -68,6 +71,7 @@
 <li>Very brief intro to callback functions(covered in great detail , later in the course)</li>
 <li>Functions returning Functions </li>
 
+</ul>
 <h2>Very Important Array Methods</h2>
 <ul>
 <li>Foreach method</li>
@@ -81,6 +85,7 @@
 <li>Fill method</li>
 <li>Splice method</li>
 
+</ul>
 
 <h2>More useful things </h2>
 <ul>
@@ -89,6 +94,7 @@
 <li>Maps</li>
 <li>Object.assign</li>
 <li>Optional chaining</li>
+</ul>
 
 
 <h2>Object Oriented JavaScript / Prototypal Inheritance</h2>
@@ -114,6 +120,7 @@
 <li>Method overriding</li>
 <li>Getters and setters</li>
 <li>Static methods and properties</li>
+</ul>
 
 <h2>How JavaScript Works</h2>
 <ul>
@@ -127,6 +134,7 @@
 <li>Closure example 1</li>
 <li>Closure Example 2</li>
 <li>Closure Example 3</li>
+</ul>
 
 <h2>DOM Tutorial</h2>
 <ul>
@@ -159,6 +167,7 @@
 <li>Event Capturing</li>
 <li>Event delegation</li> 
 <li>Create Project using event delegation</li>
+</ul>
 
 <h2>Asynchronous JavaScript</h2>
 <ul>

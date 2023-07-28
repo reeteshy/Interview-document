@@ -1,6 +1,6 @@
 <h2>SETUP</h2>
 <ul>
-<li><span> User Name -  </span>git config --global user.name “[firstname lastname]” </li>
+<li>## Installation git config --global user.name “[firstname lastname]” </li>
 <li>Install vscode and run first program</li>
 </ul>
 <h2>Basics of Programming in JavaScript</h2>
